@@ -1,0 +1,261 @@
+/*====== BEGIN BODY ======*/
+/** {
+    border: 1px solid black;
+}*/
+
+@font-face {
+    font-family: 'Avant Garde Book BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avant Garde Book BT'), url('./AVGARDN_2.woff') format('woff');
+}
+
+body {
+    font-family: Avant Garde Book BT;
+    background-image: url(../Images/iceberg4.png);
+    background-size: cover;
+}
+/*====== END BODY ======*/
+
+/*====== BEGIN NAV ======*/
+.navTitle {
+    font-size: 1.3em;
+    font-family: Rock Salt;
+}
+
+.navTitle:hover {
+    text-decoration: line-through;
+}
+/*====== END NAV ======*/
+
+/*====== BEGIN TABS ======*/
+.tabFrontSkills {
+    padding-top: 5%;
+}
+
+.tabProfile {
+    padding-top: 15%;
+}
+
+.tabBackSkills {
+    padding-top: 40%;
+}
+
+.titleProfile {
+    font-size: 60px;
+    color: #202020;
+    letter-spacing: .2em;
+    text-shadow: 
+        -1px -1px 1px #111, 
+        2px 2px 1px #36363
+}
+
+.titleProfileAnimation {
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+}
+
+#profileImage {
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+/*====== END TABS ======*/
+
+/*====== BEGIN SKILLS SECTION ======*/
+.iconFrontSkill {
+    font-size: 70px;
+    padding: 10px;
+    color: #0083BC;
+   /* background-color: #FFF;*/
+/*    border: 1px solid #D7EDEB;
+*/}
+
+.iconBackSkill {
+    font-size: 70px;
+    padding: 10px;
+    color: #FFF;
+   /* background-color: #FFF;*/
+/*    border: 1px solid #D7EDEB;
+*/}
+
+.devicon-javascript-plain:hover {
+    color:#F5DB4C;
+/*    border: 1px solid #F5DB4C;
+*/}
+
+.devicon-react-original-wordmark:hover {
+    color:#67DAF9;
+/*    border: 1px solid #67DAF9;  
+*/}
+.devicon-html5-plain-wordmark:hover {
+    color:#E24E30;
+/*    border: 1px solid #E24E30;  
+*/}
+
+.devicon-css3-plain-wordmark:hover {
+    color:#3D9BD4;
+/*    border: 1px solid #3D9BD4;  
+*/}
+
+.devicon-sass-original:hover {
+    color: #CB689A;  
+/*    border: 1px solid #CB689A;
+*/}
+
+.devicon-bootstrap-plain-wordmark:hover {
+    color: #563F7A;  
+/*    border: 1px solid #563F7A;
+*/}
+
+.devicon-nodejs-plain:hover {
+    color: #85CB39;  
+/*    border: 1px solid #85CB39;
+*/}
+
+.devicon-express-original:hover {
+    color: #000;  
+/*    border: 1px solid #000;
+*/}
+
+.devicon-mongodb-plain-wordmark:hover {
+    color: #53A847;  
+/*    border: 1px solid #53A847;
+*/}
+
+.devicon-mocha-plain:hover {
+    color: #90674B;  
+/*    border: 1px solid #90674B;
+*/}
+
+.devicon-devicon-plain:hover {
+    color: #000;  
+/*    border: 1px solid #000;
+*/}
+
+.devicon-git-plain-wordmark:hover {
+    color: #F15134;  
+/*    border: 1px solid #F15134;
+*/}
+
+ .animationIcon1 {
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+}
+
+ .animationIcon2 {
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+ .animationIcon3 {
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+ .animationIcon4 {
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+}
+
+ .animationIcon5 {
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+ .animationIcon6 {
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+}
+/*====== END SKILLS SECTION ======*/
+
+/*====== BEGIN SOCIAL ======*/
+/*.iconSocial {
+    color: #000;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.ion-social-twitter {
+    color: #27A0ED;
+}
+
+.ion-social-linkedin {
+    color: #1178B2;
+}
+
+.ion-ios-telephone, .ion-ios-email {
+    color: #666666;
+}*/
+/*====== END SOCIAL ======*/
+
+/*====== BEGIN LEFT SECTION ======*/
+/*.leftSection {
+    height: 700px;
+    background-color: #333;
+    padding: 40px;
+    text-align: center;
+}
+
+.leftSection h3 {
+    color: #D7EDEB;
+    padding-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.leftSection h4 {
+    color: #FFF;
+    text-align: center;
+    line-height: 1.5em;
+}
+====== END LEFT SECTION ======
+
+/*====== BEGIN RIGHT SECTION ======*/
+/*.rightSection {
+    height: 700px;
+    background-color: #D7EDEB;
+    padding: 40px;
+    text-align: center;
+}
+
+.rightSection h3 {
+    color: #333;
+    padding-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+.rightSection h5 {
+    color: #666;
+}
+
+h5 {
+    padding-bottom: 30px;
+}*/
+
+#headingCV {
+  height: 800px;
+   
+}
+
+
+
+.deepShadowTitle {
+    font-size: 60px;
+    color: #FFF;
+    letter-spacing: .0.4em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  }
